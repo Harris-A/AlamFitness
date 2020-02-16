@@ -1,0 +1,22 @@
+header.masthead {
+    background-image: url(image/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-top: 45px;
+}
+
+.font-weight-light {
+    color: red;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+      padding: 320px;
+  }
+}
