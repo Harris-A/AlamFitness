@@ -1,14 +1,12 @@
 header.masthead {
-    background-image: url(image/header.jpg);
+    background-image: url(../image/header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    padding-top: 160px;
-    padding-bottom: 160px;
-    margin-top: 45px;
+    margin-top:-80px;
 }
 
 .font-weight-light {
