@@ -80,3 +80,25 @@ header.masthead {
     margin-top: 0;
   }
 }
+
+/* About masthead section*/
+.about-masthead {
+    background-image: url(../image/left-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin-top: -20px;
+    padding-top: 0;
+    padding-bottom: 80px !important;
+}
+.col-md-6 {
+    color: #fff;
+    font-weight: 300;
+    background: #000;
+    opacity: .8;
+    margin-top: 80px;
+}
+/*--end--*/
