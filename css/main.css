@@ -127,11 +127,20 @@ section.about {
 }
 /*--end--*/
 
+/*adverts section*/
+.adverts {
+    margin-bottom: 50px;
+}
+/*adverts section end*/
+
 /*---footer styles--*/
 .page-footer {
     background: #30d87f;
     padding: 80px;
     margin-right: -15px;
     margin-left: -15px;
+}
+.footer-title {
+    font-size: 18px;
 }
 /*--footer styles end--*/
