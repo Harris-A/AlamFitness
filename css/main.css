@@ -19,30 +19,18 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*nav styling*/
-@media (min-width: 992px) {
-  .navbar-toggler {
-    display: none;
-  }
-  #navbarNav {
-    display: block;
-  }
-}
 .navbar {
-    background-color: #000000!important;
-}
-.nav-item a {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Lato';
-    font-size: 14px;
+    background-color: #000000;
 }
 .navbar-brand {
     color: #fff !important;
     font-weight: 300;
 }
-.nav-item .login {
-  background-color: #1abd6b;
-    padding: 8px;
+.nav-link {
+    color: #fff !important;
+}
+.nav-link.member {
+    background-color: #00ff7f;
 }
 /*--nav styling end--*/
 
