@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
 
+.container {
+    max-width: 1400px;
+}
+
 /*nav styling*/
 .navbar {
     background-color: #000000;
@@ -99,33 +103,34 @@ h1,h2,h3,h4,h5,h6{
 }
 /*--slogan styling end--*/
 
-/* About section*/
-section.about {
-    padding: 80px;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:25.25%;
+    position:relative;
+    height:0;
+    margin-top:-15px;
+    margin-bottom: 30px;
 }
-.right-img {
-  width:100%;
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
-#quote {
-    font-size: 28px;
-    margin-bottom: 14px !important;
-    font-style: italic;
-    text-transform: none;
-    padding: 10px;
-    text-align: center;
-    border-bottom: 13px solid #8dfaff;
-    width: 39%;
-    margin: 0 auto;
-    height: 45px;
-}
-@media (max-width:768px) {
-  #quote {
-    margin-top: -57px;
-    height: 128px;
-    width: 80%;
+
+@media (max-width: 768px) {
+  .map-responsive {
+    padding-bottom: 65.25%;
   }
 }
-/*--end--*/
+
+
+ /*--about section--*/
+ .featurette {
+    margin-bottom: 50px;
+}
+ /*--about section end--*?
 
 .carousel-inner {
     padding-left: 80px;
